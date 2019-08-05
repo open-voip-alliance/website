@@ -362,6 +362,7 @@ template {
   --color-neutral-10: #f7f7f7;
   --color-neutral-30: #e1e1e1;
   --color-neutral-50: #bfbfbf;
+  --color-neutral-60: #666;
   --color-neutral-70: #333;
   --color-neutral-90: #222;
 
@@ -410,12 +411,17 @@ p a:hover {
   /* TODO */
 }
 
+fieldset {
+  margin: 0;
+  padding: 0 1.5rem;
+}
+
 .c-input {
   background: none;
   border: 0;
   border-radius: 0;
   border-bottom: 3px solid var(--color-secondary-50);
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   padding: .5rem 0;
   width: 100%;
 }
@@ -423,6 +429,12 @@ p a:hover {
 .c-input:focus {
   outline: none;
   /* TODO */
+}
+
+.c-checkbox {
+  position: absolute;
+  margin-top: .3rem;
+  margin-left: -1.25rem;
 }
 
 .c-button {
@@ -460,6 +472,19 @@ p a:hover {
   margin-bottom: 2rem;
 }
 
+.c-footnote {
+  color: var(--color-neutral-60);
+  font-size: .75em;
+  line-height: 1.25em;
+}
+
+.c-footnote a {
+  color: var(--color-neutral-60);
+  box-shadow: none;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
 .c-content {
   border-left: 4px solid var(--color-primary-50);
   margin-bottom: -5rem;
@@ -495,6 +520,15 @@ p a:hover {
   color: var(--color-secondary-50);
   font-size: 1.6rem;
   font-weight: 600;
+}
+
+.c-card {
+  box-shadow: 0 0 1rem rgba(0,0,0,.15);
+  color: currentColor;
+  display: block;
+  margin-bottom: 2rem;
+  padding: 1px 1.5rem 1.5rem;
+  text-decoration: none;
 }
 
 .c-panel {
@@ -589,12 +623,17 @@ p a:hover {
 }
 
 .c-hero {
-  background: url('./hero.png') 50% 100% no-repeat;
-  background-size: cover;
+  background-color: var(--color-secondary-70);
   color: var(--color-white);
-  padding: 30vh 0;
+  padding: 6rem 0;
   position: relative;
   text-align: center;
+}
+
+.c-hero--huge {
+  background: url('./hero.png') 50% 100% no-repeat;
+  background-size: cover;
+  padding: 30vh 0;
 }
 
 .c-payoff {
@@ -643,10 +682,6 @@ p a:hover {
 
   html {
     font-size: 20px;
-  }
-
-  .c-input {
-    width: 30ch;
   }
 
   .c-content {
@@ -702,7 +737,7 @@ p a:hover {
     left: 100%;
   }
 
-  .c-hero::after {
+  .c-hero--huge::after {
     background: url('./element.png') no-repeat;
     background-size: cover;
     bottom: -9rem;
