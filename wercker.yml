@@ -1,0 +1,13 @@
+box: alpine:latest
+
+deploy:
+  steps:
+    - script:
+        name: test
+        code: |
+          apk update
+          apk add openssh
+          echo -e "$SSH_KEY_PRIVATE" > ~/private_key
+          chmod 400 ~/private_key
+          echo "SSH-ing into server"
+          ssh -i ~/private_key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ruben@openvoipalliance.org "cd /usr/share/nginx/html/website && git pull origin master"
