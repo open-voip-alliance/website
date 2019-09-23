@@ -840,6 +840,10 @@ p a:focus {
   margin-bottom: 4rem;
 }
 
+.u-mr-s {
+  margin-right: .5rem;
+}
+
 .u-text-center {
   text-align: center;
 }
