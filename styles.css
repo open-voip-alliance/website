@@ -810,6 +810,8 @@ p a:focus {
 
 .c-members-logo {
   display: block;
+  max-height: 5rem;
+  object-fit: contain;
   padding: 1rem 0;
   width: 100%;
 }
