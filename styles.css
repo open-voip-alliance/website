@@ -423,17 +423,20 @@ ul li {
   margin-bottom: .75rem;
 }
 
-p a {
+p a,
+.c-list a {
   box-shadow: inset 0 -5px 0 0 var(--color-secondary-10);
   color: var(--color-secondary-70);
 }
 
-p a:hover {
+p a:hover,
+.c-list a:hover {
   box-shadow: inset 0 -5px 0 0 var(--color-secondary-30);
   transition: ease-in .1s;
 }
 
-p a:focus {
+p a:focus,
+.c-list a:focus {
   background: var(--color-secondary-10);
   box-shadow: 0 0 0 2px var(--color-secondary-10);
   color: var(--color-black);
