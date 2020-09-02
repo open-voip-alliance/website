@@ -735,7 +735,7 @@ p a:focus,
 }
 
 .c-hero {
-  background: url('./hero.png') 50% 70% no-repeat;
+  background: url('/images/hero.png') 50% 70% no-repeat;
   background-color: var(--color-secondary-70);
   background-size: cover;
   color: var(--color-white);
@@ -746,7 +746,7 @@ p a:focus,
 }
 
 .c-hero--huge {
-  background: url('./hero.png') 50% 100% no-repeat;
+  background: url('/images/hero.png') 50% 100% no-repeat;
   background-size: cover;
   padding: 30vh 0;
 }
@@ -979,7 +979,7 @@ p a:focus,
   }
 
   .c-hero--huge::after {
-    background: url('./element.png') no-repeat;
+    background: url('/images/element.png') no-repeat;
     background-size: cover;
     bottom: -9rem;
     content: "";

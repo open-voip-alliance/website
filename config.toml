@@ -1,0 +1,7 @@
+baseURL = "https://openvoipalliance.org/"
+languageCode = "en-us"
+title = "Open VoIP Alliance"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[markup.goldmark.renderer]
+unsafe= true
