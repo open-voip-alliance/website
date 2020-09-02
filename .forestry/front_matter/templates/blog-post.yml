@@ -11,3 +11,8 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: avatar
+  type: file
+  config:
+    maxSize: 64
+  label: Avatar
