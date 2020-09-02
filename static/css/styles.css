@@ -606,6 +606,7 @@ p a:focus,
 
 .c-panel {
   background: var(--color-neutral-10);
+  display: block;
   padding: 2rem 1rem 3rem 1rem;
 }
 
@@ -646,6 +647,25 @@ p a:focus,
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+.c-heading a {
+  box-shadow: inset 0 -8px 0 0 var(--color-secondary-10);
+  color: var(--color-secondary-70);
+}
+
+.c-heading a:hover {
+  box-shadow: inset 0 -8px 0 0 var(--color-secondary-30);
+  transition: ease-in .1s;
+}
+
+.c-heading a:focus {
+  background: var(--color-secondary-10);
+  box-shadow: 0 0 0 2px var(--color-secondary-10);
+  color: var(--color-black);
+  outline: none;
+}
+
+
 
 .l-container {
   margin: 0 auto;
@@ -850,6 +870,21 @@ p a:focus,
   width: 100%;
 }
 
+.c-blog-avatar {
+  border-radius: 50%;
+}
+
+.c-blog-meta {
+  color: var(--color-neutral-50);
+  font-weight: 400;
+}
+
+.c-blog-avatar-article {
+  float: left;
+  margin: -.25rem .5rem 0 0;
+  width: 3rem;
+}
+
 .u-color-primary {
   color: var(--color-primary-50);
 }
@@ -928,26 +963,29 @@ p a:focus,
     padding: 3rem 1rem 3rem 14.75rem;
   }
 
-  .c-panel-icon .c-icon {
+  .c-panel-media .c-icon,
+  .c-panel-media .c-blog-avatar {
     display: block;
     fill: var(--color-primary-50);
     position: absolute;
     width: 3rem;
   }
 
-  .c-panel-left.c-panel-icon {
+  .c-panel-left.c-panel-media {
     padding-left: 5rem;
   }
 
-  .c-panel-left.c-panel-icon .c-icon {
+  .c-panel-left.c-panel-media .c-icon,
+  .c-panel-left.c-panel-media .c-blog-avatar {
     left: 1rem;
   }
 
-  .c-panel-right.c-panel-icon .c-icon {
+  .c-panel-right.c-panel-media .c-icon,
+  .c-panel-right.c-panel-media .c-blog-avatar {
     left: 12rem;
   }
 
-  .c-panel-right.c-panel-icon {
+  .c-panel-right.c-panel-media {
     padding-left: 16rem;
   }
 
