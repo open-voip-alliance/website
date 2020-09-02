@@ -10,7 +10,7 @@
         {{ else }}
             <div class="c-panel c-panel-right c-panel-media">
         {{ end }}
-            <img src="/images/avatar-name.jpg" class="c-blog-avatar">
+            <img src="{{ .Params.avatar }}" class="c-blog-avatar">
             <h3 class="c-heading c-heading-small u-color-secondary"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             <div class="c-blog-meta">{{ .Date.Format "Monday, January 2, 2006" }} - {{ .Params.author }}</div>
             {{ truncate 200 "..." .Content }}
