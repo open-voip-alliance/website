@@ -11,3 +11,5 @@ fields:
 - type: datetime
   name: date
   label: date
+pages:
+- content/blog/forestry-test.md
