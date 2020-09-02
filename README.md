@@ -1,4 +1,4 @@
 # Open VoIP Alliance website
-[![wercker status](https://app.wercker.com/status/2da7f189fdf169215f440438a2e1bbff/s/master "wercker status")](https://app.wercker.com/project/byKey/2da7f189fdf169215f440438a2e1bbff)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa01a089-6378-4edc-be90-04986a0a7212/deploy-status)](https://app.netlify.com/sites/thirsty-wing-9e3e49/deploys)
 
 This repository contains all static files needed to serve the site on [openvoipalliance.org](https://openvoipalliance.org).
