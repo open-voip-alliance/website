@@ -1,7 +1,6 @@
 +++
 author = "John Doe"
 date = 2020-09-02T00:00:00Z
-draft = true
 title = "Forestry test"
 
 +++
