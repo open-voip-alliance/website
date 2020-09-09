@@ -6,3 +6,5 @@ title = "Test"
 
 +++
 Test
+
+**WYSIWYG**
