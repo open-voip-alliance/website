@@ -16,3 +16,5 @@ fields:
   config:
     maxSize: 64
   label: Avatar
+pages:
+- content/blog/help-us-connect-the-puzzle-pieces-of-open-source-voip-technology.md
