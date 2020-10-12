@@ -9,7 +9,7 @@ _Join our team as the community builder to further our mission_
 
 The Open VoIP Alliance started from a project, and it started from a feeling that more could be done to strengthen the innovation of open source VoIP technology. At Spindle we have the freedom to run with our ideas, and thus the Open VoIP Alliance was born. Over the past year Ruben and Ashley have put together their combination of technical and communication skills to get the Alliance where it is today - a fledgling community of builders, thinkers and idealists who have one thing in common, the love for open source VoIP technology.
 
-Now we are looking for someone with the experience and passion for building open source communities to really get this going. Keep reading to find out how the Alliance started and how you fit in the picture!
+Now we are looking for someone with the experience and passion for building open source communities t[o really get this going.](https://jobs.wearespindle.com/open-source-community-builder "Job opening") Keep reading to find out how the Alliance started and how you fit in the picture!
 
 To understand how and why the Open VoIP Alliance was born, it helps if you first understand the organization that sprouted it, Spindle. Spindle is a collective of professional tech enthusiasts with the purpose to develop open and free communication tools that connect people and organizations. We work towards achieving this by being a self managing organization that uses the Holacracy framework. This gives Spindlers a lot of freedom and choice to work on the issues they find important for the organization.
 
