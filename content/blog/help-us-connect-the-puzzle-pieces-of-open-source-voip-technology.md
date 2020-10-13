@@ -3,6 +3,8 @@ author = "Ruben"
 avatar = "/images/element.png"
 date = 2020-10-12T00:00:00Z
 title = "Help us connect the puzzle pieces of open source VoIP technology!"
+description = "Join our team as the community builder to further our mission"
+images = ["/images/laptop-back.jpg"]
 
 +++
 _Join our team as the community builder to further our mission_
