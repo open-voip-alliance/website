@@ -32,7 +32,7 @@ the main reason why the Pinephone is primarily for Linux enthousiasts.
 ## Hardware update
 
 In january 2020 I ordered a Pinephone Braveheart(1.1 rev. hardware). This was a
-good excuse for me to get a bit [familiar]((https://gist.github.com/jvanveen/d395869f925605c09b0e5d1a0959b52b)
+good excuse for me to get a bit [familiar](https://gist.github.com/jvanveen/d395869f925605c09b0e5d1a0959b52b)
 with [Plasma Mobile](https://www.plasma-mobile.org/) and [PostmarketOS](https://postmarketos.org/).
 A couple of months later, I discoved that [Manjaro](https://forum.manjaro.org/tag/beta-release)
 also offers recent ARM builds of Plasma mobile and [Phosh](https://developer.puri.sm/Librem5/Software_Reference/Environments/Phosh.html),
@@ -125,7 +125,7 @@ the Pinephone for two days as my mobile phone and here are my findings:
 
 I would like to have my contacts stored outside of the phone, so a phone
 crash won't wipe them all. I installed [Nextcloud](https://wiki.archlinux.org/index.php/Nextcloud)
-on a VPN and used the Nextcloud Contacts sync option in Gnome Contacts to sync
+on a VPS and used the Nextcloud Contacts sync option in Gnome Contacts to sync
 contacts from my Nextcloud to the phone. I was quite excited about this
 functionality and explored Nextcloud a bit.
 
@@ -151,7 +151,7 @@ using it intensively, it would maybe last a couple of hours. Then there is
 some news about the [charging safety](https://xnux.eu/log/#017) of
 the Pinephone, which is the reason why it will only charge to 89% capacity
 for now. The phone is not getting too hot, even when using it in convergence
-mode, so I'm not that worried about it. However, its good that see some
+mode, so I'm not that worried about it. However, its good to see some
 awareness of the issue, before accidents happen. After a while, when
 unlocking the phone, the touch input seems to be lagging one event behind
 all the time, which forces me to reboot the phone.
@@ -160,7 +160,7 @@ all the time, which forces me to reboot the phone.
 
 ![Example image](/images/blog/convergence.jpeg)
 
-This is what I get really exciting about. Yes, the phone part is not 100% there
+This is what I get really excited about. Yes, the phone part is not 100% there
 yet, but it will in time, considering the enormous amount of work that
 has already been done by the community. The interesting part of this device is
 that it is actually a full-blown pocket-size Linux computer, able to run most of
