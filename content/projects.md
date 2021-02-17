@@ -20,6 +20,9 @@ title: "Projects"
         <a href="https://github.com/open-voip-alliance/ca11/" rel="external" target="_blank">CA11</a>
       </h3>
       <p>
+        <b> This project is no longer being developed and is archived.
+        </b>
+      <p>
         <a href="https://ca11.app" target="_blank">CA11</a> started in 2019 with the purpose to make telephony more like the Web;
           accessible and without the need for accounts or subscriptions. CA11 consists of a WebRTC softphone with flexible support for
           multiple signalling protocols. It currently implements the SIP protocol and a custom protocol called SIG11.
