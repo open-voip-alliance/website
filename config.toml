@@ -20,3 +20,5 @@ unsafe= true
     style = "monokai"
     tabWidth = 4
 
+[params]
+googleMapsAPIKey = "AIzaSyDX6FTiFE_a2_SI2FGG1GNGkv1zq55HvN8"

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="c-hero"></div>
+<div class="l-container u-mb-xl">
+    <div id="content">
+        <h1 class="c-heading">Events</h1>
+        <!-- Ranges through content/events/*.md -->
+        {{ range $i,$p := (where .Data.Pages "Section" "events").ByDate.Reverse}}
+        {{ if not (modBool $i 2) }}
+        <div class="c-panel c-panel-left c-panel-media">
+            {{ else }}
+            <div class="c-panel c-panel-right c-panel-media">
+                {{ end }}
+                <h3 class="c-heading c-heading-small u-color-secondary"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <div class="c-blog-meta">{{ .Date.Format "Monday, January 2, 2006" }} - {{ .Params.author }}</div>
+                <div>Organized by <strong>{{ .Params.organizer }}</strong></div>
+                {{ truncate 200 "..." .Content }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
