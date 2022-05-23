@@ -11,7 +11,7 @@
             <div class="c-panel c-panel-right c-panel-media">
                 {{ end }}
                 <h3 class="c-heading c-heading-small u-color-secondary"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                <div><strong>{{ .Date.Format "Monday, January 2, 2006" }}</strong> - Organzied by <strong>{{ .Params.organizer }}</strong></div>
+                <div><strong>{{ .Date.Format "Monday, January 2, 2006" }}, {{ .Date | time.Format ":time_short" }}</strong> - Organized by <strong>{{ .Params.organizer }}</strong></div>
                 {{ truncate 200 "..." .Content }}
             </div>
             {{ end }}
