@@ -1,6 +1,6 @@
-baseURL = "https://openvoipalliance.org/"
+baseURL = "https://opencommsalliance.org/"
 languageCode = "en-us"
-title = "Open VoIP Alliance"
+title = "Open Comms Alliance"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [markup.goldmark.renderer]

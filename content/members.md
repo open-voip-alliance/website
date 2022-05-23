@@ -5,7 +5,7 @@ title: "Members"
   <div class="l-container u-mb-xl">
     <div id="content">
       <h1 class="c-heading">Member organizations</h1>
-      <p>Together we can connect the VoIP world. Here are the companies and organizations working together on the Open VoIP Alliance.</p>
+      <p>Together we can connect the open source world. Here are the companies and organizations working together on the Open Comms Alliance.</p>
       <div class="c-members">
         <a href="https://www.iperity.com" class="c-members-link" target="_blank" rel="external"><img src="/images/members/logo-iperity.svg" alt="Iperity" class="c-members-logo"></a>
         <a href="https://www.wearespindle.com" class="c-members-link" target="_blank" rel="external"><img src="/images/members/logo-spindle.svg" alt="Spindle" class="c-members-logo"></a>
@@ -22,7 +22,7 @@ title: "Members"
         <a href="https://coffeeit.nl/" class="c-members-link" target="_blank" rel="external"><img src="/images/members/logo-coffeeit.svg" alt="gnTel" class="c-members-logo"></a>
       </div>
       <h2 class="c-heading">Contributors</h2>
-      <p>The people behind the companies and communities that are part of the alliance are what really makes this alliance a success. If you have joined a discussion, helped on a project, or helped the Open VoIP Alliance in other ways, add your name to the list! You can do this by submitting a pull request to the repository on our github page.</p>
+      <p>The people behind the companies and communities that are part of the alliance are what really makes this alliance a success. If you have joined a discussion, helped on a project, or helped the Open Comms Alliance in other ways, add your name to the list! You can do this by submitting a pull request to the repository on our github page.</p>
       <p><a href="https://github.com/open-voip-alliance/website/blob/master/contributors.txt" rel="external" target="_blank" >See who our contributors are on Github</a></p>
     </div>
   </div>

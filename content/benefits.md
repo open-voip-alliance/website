@@ -12,10 +12,15 @@ title: "Benefits"
     </div>
     <div class="c-panel c-panel-right c-panel-icon">
       <img src="/images/checkmark.svg" class="c-icon u-color-primary">
-      <h3 class="c-heading c-heading-small u-color-secondary">Be on the forefront of VoIP developments</h3>
-      <p>Technology is like the wind, it constantly changes direction. The Open VoIP Alliance gives you a place to keep in the loop about all things VoIP and push the industry forward in new and exciting ways.</p>
+      <h3 class="c-heading c-heading-small u-color-secondary">Participate in workshops and events</h3>
+      <p>Want to broaden your skillset and see how others are dealing with the challenges in ther work? Learn from other Open Comms Alliance members through interactive workshops, meetups and Q&A sessions. </p>
     </div>
     <div class="c-panel c-panel-left c-panel-icon">
+      <img src="/images/checkmark.svg" class="c-icon u-color-primary">
+      <h3 class="c-heading c-heading-small u-color-secondary">Be on the forefront of communication developments</h3>
+      <p>Technology is like the wind, it constantly changes direction. The Open Comms Alliance gives you a place to keep in the loop about all things communication and push the industry forward in new and exciting ways.</p>
+    </div>
+    <div class="c-panel c-panel-right c-panel-icon">
       <img src="/images/checkmark.svg" class="c-icon u-color-primary">
       <h3 class="c-heading c-heading-small u-color-secondary">Know what's going on</h3>
       <p>Always wondered how that cool technological feat was pulled off? Need a bigger picture of what companies are struggling with or working on? This is the place to find out and help where possible.</p>
