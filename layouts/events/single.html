@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="c-hero"></div>
+<div class="l-container u-mb-xl">
+    <div id="content">
+        <h1 class="c-heading">{{ .Title }}</h1>
+        <div class="c-blog-meta"><img src="{{ .Params.avatar }}" class="c-blog-avatar c-blog-avatar-article"> <strong>{{ .Params.author }}</strong> <div>{{ .Date.Format "Monday, January 2, 2006" }}</div></div>
+        <div>Organized by <strong>{{ .Params.organizer }}</strong></div>
+        {{ .Content }}
+        <hr>
+        {{ partial "shortcodes/google-maps-view.html" . }}
+    </div>
+</div>
+{{ end }}
